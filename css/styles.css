@@ -1,0 +1,33 @@
+:root {
+    --main-font: font-family: 'Roboto', sans-serif;
+    --secondary-font: font-family: 'Raleway', sans-serif;
+    --main-color: #2196f3;
+}
+body {
+    font-family: var(--main-font)
+}
+
+/* ===== HEADER ===== */
+
+/* WebStudio */
+.navigation-link {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    
+    background-color: white;
+    color: #2196F3;
+}
+.navigation-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    
+    background-color: white;
+    color: #2196F3;
+
+}
+}
+/* ===== END HEADER ===== */
