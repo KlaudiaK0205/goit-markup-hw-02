@@ -7,7 +7,7 @@
 body {
   font-family: var(--main-font);
   font-style: normal;
-  /* background: #e5e5e5; */
+  color: #e5e5e5;
 }
 
 /* ========== COMPONENTS ========== */
@@ -60,6 +60,14 @@ body {
   color: var(--main-color);
 }
 
+.navigation-list,
+.title-list,
+.what-we-do-list,
+.our-team-list,
+.button-list,
+.images-list {
+  list-style: none;
+}
 /* usunąć kropki z list */
 
 /* ========== END HEADER ========== */
@@ -68,7 +76,7 @@ body {
 .effective-solutions-for-your-business {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.364;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
@@ -174,7 +182,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #ffffff;
@@ -185,7 +193,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.714;
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
@@ -229,7 +237,7 @@ body {
 .images-name {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 
   color: #212121;
@@ -238,7 +246,7 @@ body {
 .images-type {
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875;
   letter-spacing: 0.03em;
 
   color: #757575;
