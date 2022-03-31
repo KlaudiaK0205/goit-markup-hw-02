@@ -59,11 +59,12 @@ body {
 }
 
 .navigation-list,
-.title-list,
+.our-strengths-item,
 .what-we-do-list,
 .our-team-list,
 .button-list,
-.images-list {
+.images-list,
+.address-list-item {
   list-style: none;
 }
 
@@ -199,7 +200,7 @@ body {
 
 /* ========== END FOOTER ========== */
 
-/* ========== FORTFOLIO ========== */
+/* ========== PORTFOLIO ========== */
 
 .modal-btn-portfolio {
   font-weight: 500;
@@ -223,13 +224,6 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 0px;
-}
-
-.contact-mailto:hover,
-.contact-mailto:focus,
-.contact-phone:hover,
-.contact-phone:focus {
-  color: var(--main-color);
 }
 
 .images-name {
