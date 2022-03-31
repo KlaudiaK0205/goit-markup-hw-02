@@ -16,7 +16,7 @@ body {
 /* ========== HEADER ========== */
 
 /* ========== WEBSTUDIO ==========  */
-.navigation-link {
+.logo-web-studio {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -27,13 +27,13 @@ body {
   color: #212121;
 }
 
-.navigation-link span {
+.logo-web-studio span {
   color: #2196f3;
 }
 /* ========== END WEBSTUDIO ==========  */
 
 .navigation-list-link,
-.mail,
+.mailto,
 .phone {
   font-weight: 500;
   font-size: 14px;
@@ -42,19 +42,17 @@ body {
   text-decoration: none;
 }
 
-.mail,
+.mailto,
 .phone {
   color: #757575;
 }
 
-.navigation-link:hover,
-.navigation-link:focus,
 .navigation-list-link:hover,
 .navigation-list-link:focus,
 .button-list-item:hover,
 .button-list-item:focus,
-.mail:hover,
-.mail:focus,
+.mailto:hover,
+.mailto:focus,
 .phone:hover,
 .phone:focus {
   color: var(--main-color);
@@ -227,8 +225,8 @@ body {
   border-radius: 0px;
 }
 
-.contact-mail:hover,
-.contact-mail:focus,
+.contact-mailto:hover,
+.contact-mailto:focus,
 .contact-phone:hover,
 .contact-phone:focus {
   color: var(--main-color);
