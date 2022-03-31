@@ -105,7 +105,7 @@ body {
 /* ========== END EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU ========== */
 
 /* ========== NASZE ATUTY ========== */
-.our-strengths {
+.our-strengths-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
@@ -114,7 +114,8 @@ body {
 
   color: #212121;
 }
-.our-strengths-item {
+
+.our-strengths-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
