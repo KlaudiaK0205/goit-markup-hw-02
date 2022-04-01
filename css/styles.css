@@ -1,13 +1,14 @@
 :root {
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
-  --main-color: #2196f3;
+  --main-color: #212121;
+  --secondary-color: #2196f3;
 }
 
 body {
   font-family: var(--main-font);
   font-style: normal;
-  color: #212121;
+  color: var(--main-color);
 }
 
 /* ========== COMPONENTS ========== */
@@ -16,6 +17,7 @@ body {
 /* ========== HEADER ========== */
 
 /* ========== WEBSTUDIO ==========  */
+
 .logo-web-studio {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -24,11 +26,11 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   background-color: white;
-  color: #212121;
+  color: var(--secondary-color);
 }
 
 .logo-web-studio span {
-  color: #2196f3;
+  color: var(--main-color);
 }
 /* ========== END WEBSTUDIO ==========  */
 
@@ -42,6 +44,10 @@ body {
   text-decoration: none;
 }
 
+.navigation-list-link:visited {
+  color: var(--main-color);
+}
+
 .mailto,
 .phone {
   color: #757575;
@@ -51,11 +57,13 @@ body {
 .navigation-list-link:focus,
 .button-list-item:hover,
 .button-list-item:focus,
+.address-home:hover,
+.address-home:focus,
 .mailto:hover,
 .mailto:focus,
 .phone:hover,
 .phone:focus {
-  color: var(--main-color);
+  color: var(--secondary-color);
 }
 
 .navigation-list,
@@ -177,25 +185,25 @@ body {
   background-color: #2f303a;
 }
 
+/* .p logo studio w footer */
+
 .address-home {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  text-decoration: none;
   color: #ffffff;
 }
 
-.contact-mail,
+.contact-mailto,
+.contact-phone {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-home,
+.contact-mailto,
 .contact-phone {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-
-  color: rgba(255, 255, 255, 0.6);
 }
 
 /* ========== END FOOTER ========== */
