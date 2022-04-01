@@ -15,11 +15,11 @@ body {
 
 .logo-web-studio-light-theme {
   color: var(--main-color);
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .logo-web-studio-dark-theme {
-  color: white;
+  color: #ffffff;
   background-color: #2F303A;
 }
 
